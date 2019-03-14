@@ -213,7 +213,7 @@ const Button = styled.a`
   }
 `;
 
-const ErrorButton = Button.extend`
+const ErrorButton = styled(Button)`
   background-color: #e74c3c;
   box-shadow: 0px 5px 0px 0px #CE3323;
   &:hover{
@@ -221,7 +221,7 @@ const ErrorButton = Button.extend`
   }
 `;
 
-const SuccessButton = Button.extend`
+const SuccessButton = styled(Button)`
   background-color: #2ecc71;
   box-shadow: 0px 5px 0px 0px #15B358;
   &:hover{
@@ -229,7 +229,7 @@ const SuccessButton = Button.extend`
   }
 `;
 
-const InfoButton = Button.extend`
+const InfoButton = styled(Button)`
   background-color: #f1c40f;
   box-shadow: 0px 5px 0px 0px #D8AB00;
   &:hover{
